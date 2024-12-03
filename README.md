@@ -24,8 +24,6 @@
             margin: 10px auto;
             line-height: 1.8;
         }
-
-        /* Navbar Styling */
         nav {
             background: rgba(0, 0, 0, 0.8);
             padding: 10px 20px;
@@ -44,8 +42,6 @@
         nav a:hover {
             color: #ff6600;
         }
-
-        /* Hero Section */
         .hero {
             height: 100vh;
             background: url('https://i.imgur.com/JZNtGYk.jpg') no-repeat center center/cover;
@@ -65,8 +61,6 @@
             font-size: 1.2em;
             margin: 10px 0;
         }
-
-        /* Sections */
         section {
             padding: 50px 20px;
             text-align: center;
@@ -76,8 +70,6 @@
             margin-bottom: 20px;
             color: #ffcc00;
         }
-
-        /* Cards */
         .cards {
             display: flex;
             flex-wrap: wrap;
@@ -107,8 +99,6 @@
         .card a:hover {
             text-decoration: underline;
         }
-
-        /* Footer */
         footer {
             text-align: center;
             background: rgba(0, 0, 0, 0.8);
@@ -131,14 +121,10 @@
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
     </nav>
-
-    <!-- Hero Section -->
     <div class="hero">
         <h1>Welcome to Tilak Raval's Space Lab</h1>
         <p>🚀 Exploring the galaxies of robotics, AI, and IoT innovations 🌌</p>
     </div>
-
-    <!-- About Section -->
     <section id="about">
         <h2 class="section-title">About Me</h2>
         <p>
@@ -146,8 +132,6 @@
             Passionate about building robots that transform the future. Award-winning robotics competitor.
         </p>
     </section>
-
-    <!-- Projects Section -->
     <section id="projects">
         <h2 class="section-title">My Projects</h2>
         <div class="cards">
@@ -174,16 +158,12 @@
             </div>
         </div>
     </section>
-
-    <!-- Contact Section -->
     <section id="contact">
         <h2 class="section-title">Contact Me</h2>
         <p>Email: <a href="mailto:tilak25012003.ris@gmail.com">tilak25012003.ris@gmail.com</a></p>
         <p>LinkedIn: <a href="https://linkedin.com/in/tilak-tr10" target="_blank">linkedin.com/in/tilak-tr10</a></p>
         <p>GitHub: <a href="https://github.com/Tilak-TR10" target="_blank">github.com/Tilak-TR10</a></p>
     </section>
-
-    <!-- Footer -->
     <footer>
         <p>&copy; 2024 Tilak Raval - All Rights Reserved</p>
     </footer>
